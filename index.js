@@ -8,9 +8,9 @@ function nowServing(current) {
     return "There is nobody waiting to be served!"
     }
     else {
-      var nowServing = current[0]
+      var servingNow = current[0]
       current.shift()
-      return `Currently serving ${nowServing}.`
+      return `Currently serving ${servingNow}.`
     }
 }
 
